@@ -30,11 +30,11 @@ dependencies {
     implementation "androidx.localbroadcastmanager:localbroadcastmanager:${versions.androidxLocalBroadcastManager}"
     implementation "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
     implementation "de.cketti.library.changelog:ckchangelog-core:2.0.0-beta02"
-    implementation "com.splitwise:tokenautocomplete:4.0.0-beta01"
+    implementation 'com.splitwise:tokenautocomplete:4.0.0-beta04'
     implementation "de.cketti.safecontentresolver:safe-content-resolver-v21:1.0.0"
-    implementation 'com.mikepenz:materialdrawer:8.4.5'
-    implementation 'com.mikepenz:materialdrawer-iconics:8.4.5'
-    implementation 'com.mikepenz:fontawesome-typeface:5.9.0.0-kotlin@aar'
+    implementation 'com.mikepenz:materialdrawer:9.0.1'
+    implementation 'com.mikepenz:materialdrawer-iconics:9.0.1'
+    implementation 'com.mikepenz:fontawesome-typeface:5.13.3.0-kotlin@aar'
     implementation 'com.github.ByteHamster:SearchPreference:v2.1.0'
     implementation "com.mikepenz:fastadapter:${versions.fastAdapter}"
     implementation "com.mikepenz:fastadapter-extensions-drag:${versions.fastAdapter}"
