@@ -310,6 +310,14 @@ public class MessageCompose extends K9Activity implements OnClickListener,
         chooseIdentityButton = findViewById(R.id.identity);
         chooseIdentityButton.setOnClickListener(this);
 
+        LinearLayout identityPicker= findViewById(R.id.identity_picker);
+
+        if (K9.isShowUnifiedInbox()) {
+            identityPicker.setVisibility(View.VISIBLE);
+        } else {
+            identityPicker.setVisibility(View.GONE);
+        }
+
         ReplyToView replyToView = new ReplyToView(this);
         replyToPresenter = new ReplyToPresenter(replyToView);
 
